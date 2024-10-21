@@ -1,3 +1,4 @@
+const { log } = require("console");
 const process = require("process");
 const util = require("util");
 
@@ -22,6 +23,7 @@ function main() {
 
   // You can use print statements as follows for debugging, they'll be visible when running tests.
   console.log("Logs from your program will appear here!");
+  console.log("Started")
 
   // Uncomment this block to pass the first stage
   if (command === "decode") {
